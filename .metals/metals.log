@@ -5167,3 +5167,169 @@ WARNING: Unmatched cancel notification for request id 1971
 2026.03.27 17:07:56 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
 2026.03.27 17:07:56 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
 2026.03.27 17:07:57 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+2026.03.27 17:14:31 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:31 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java
+2026.03.27 17:14:31 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:31 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:31 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:31 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:41 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:41 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:41 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:41 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:41 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:43 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:43 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java
+2026.03.27 17:14:43 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:43 INFO  Created report: Optional[file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/RocksDBService.java]
+2026.03.27 17:14:43 INFO  QDox parse error in file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/RocksDBService.java (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_qdox-error_17-14-43-235.md")
+2026.03.27 17:14:43 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:43 INFO  Created report: Optional[file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/RocksDBService.java]
+2026.03.27 17:14:43 INFO  empty definition using pc, found symbol in pc: java/lang/System#out. (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_empty-definition_17-14-43-353.md")
+2026.03.27 17:14:43 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:44 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:45 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:45 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:45 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:46 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:46 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:46 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:47 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:47 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:49 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:49 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:49 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:55 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java
+2026.03.27 17:14:55 INFO  QDox parse error in file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/RocksDBService.java (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_qdox-error_17-14-43-235.md")
+2026.03.27 17:14:55 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:14:55 WARN  Running javac-semanticdb failed for file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/RocksDBService.java. Output:
+
+2026.03.27 17:14:59 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:11 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java
+2026.03.27 17:15:11 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:12 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:12 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:12 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:12 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:13 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:13 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:15 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:15 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:17 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:18 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:18 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:19 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:19 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:19 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:19 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:20 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:20 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:20 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:21 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:21 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:21 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:21 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:22 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:22 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+Mar 27, 2026 5:15:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2220
+2026.03.27 17:15:22 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:22 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:23 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:24 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:24 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:24 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:24 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:25 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:25 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:26 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:25 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:27 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:27 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:27 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:27 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:28 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:28 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:30 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:30 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:30 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:30 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:31 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:33 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:33 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:33 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:53 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java
+2026.03.27 17:15:53 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:15:54 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.27 17:16:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:05 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:06 WARN  Running javac-semanticdb failed for file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/FileScheduler.java. Output:
+
+2026.03.27 17:16:06 INFO  Created report: Optional[file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/FileScheduler.java]
+2026.03.27 17:16:06 INFO  QDox parse error in file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/FileScheduler.java (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_qdox-error_17-16-07-387.md")
+2026.03.27 17:16:07 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:07 INFO  QDox parse error in file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/FileScheduler.java (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_qdox-error_17-16-07-387.md")
+2026.03.27 17:16:07 INFO  Created report: Optional[file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/FileScheduler.java]
+2026.03.27 17:16:07 INFO  empty definition using pc, found symbol in pc: _empty_/Component# (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_empty-definition_17-16-07-434.md")
+2026.03.27 17:16:06 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:07 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:08 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:08 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:09 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:09 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:10 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:11 WARN  Running javac-semanticdb failed for file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/FileScheduler.java. Output:
+
+2026.03.27 17:16:11 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:11 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java
+2026.03.27 17:16:11 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:11 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:11 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:11 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:11 INFO  no build target found for d:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileScheduler.java. Using fallback presentation compiler.
+Mar 27, 2026 5:16:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2355
+2026.03.27 17:16:12 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:13 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:13 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 17:16:15 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
