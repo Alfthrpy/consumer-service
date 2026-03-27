@@ -16,6 +16,10 @@ import com.example.consumer_service.schema.FileStateKey;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -39,7 +43,7 @@ public class RocksDBService {
         try (DBOptions dbOptions = new DBOptions().setCreateIfMissing(true).setCreateMissingColumnFamilies(true)) {
 
             List<ColumnFamilyDescriptor> cfDescriptors = Arrays.asList(
-                    new ColumnFamilyDescriptor(RocksDB.DEFAULT_COLUMN_FAMILY), 
+                    new ColumnFamilyDescriptor(RocksDB.DEFAULT_COLUMN_FAMILY),
                     new ColumnFamilyDescriptor("meta-data".getBytes()),
                     new ColumnFamilyDescriptor("csv-data".getBytes()));
 
@@ -74,52 +78,86 @@ public class RocksDBService {
     }
 
     public String getMetadata(String fileName) throws RocksDBException {
-        byte[] status = db.get(metaHandle,("META:" + fileName).getBytes());
+        byte[] status = db.get(metaHandle, ("META:" + fileName).getBytes());
         return status != null ? new String(status) : null;
     }
 
     public void saveMetadata(String fileName, String status, String fileId) throws RocksDBException {
-        if (status.equals("COMPLETED")){
+        if (status.equals("COMPLETED")) {
             String dateNow = LocalDate.now().toString();
             String value = "COMPLETED|" + dateNow + "|" + fileId;
-            db.put(metaHandle,("META:" + fileName).getBytes(), value.getBytes());
+            db.put(metaHandle, ("META:" + fileName).getBytes(), value.getBytes());
         } else {
-            db.put(metaHandle,("META:" + fileName).getBytes(), status.getBytes());
+            db.put(metaHandle, ("META:" + fileName).getBytes(), status.getBytes());
         }
     }
 
+    public void generateBatchFile() {
+        String fileName = "batch_output_" + System.currentTimeMillis() + ".csv";
+        File outputFile = new File(fileName);
+
+        try (RocksIterator iterator = db.newIterator();
+                BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
+
+            iterator.seekToFirst();
+
+            System.out.println("Memulai proses tulis ke file: " + fileName);
+            int count = 0;
+
+            while (iterator.isValid()) {
+                byte[] keyBytes = iterator.key();
+                byte[] valueBytes = iterator.value();
 
 
-public void cleanupOldData(int daysThresold) throws RocksDBException {
-    LocalDate limitDate = LocalDate.now().minusDays(daysThresold);
+                String key = new String(keyBytes, StandardCharsets.UTF_8);
+                String value = new String(valueBytes, StandardCharsets.UTF_8);
 
-    try (RocksIterator iter = db.newIterator(metaHandle)) {
-        for (iter.seekToFirst(); iter.isValid(); iter.next()) {
-            String fileName = new String(iter.key());
-            String metaValue = new String(iter.value()); // Format: COMPLETED|2025-05-20|uuid-123
+                writer.write(key + "," + value);
+                writer.newLine();
 
-            String[] parts = metaValue.split("\\|");
-            if (parts.length == 3 && parts[0].equals("COMPLETED")) {
-                LocalDate processedDate = LocalDate.parse(parts[1]);
-                String fileId = parts[2];
+                db.delete(keyBytes);
 
-                // Jika tanggal proses lebih lama atau sama dengan dari batas (limitDate)
-                if (!processedDate.isAfter(limitDate)) {
-                    System.out.println("Cleaning up old data for file: " + fileName);
-                    
-                    // 1. Hapus isi baris CSV di CF data
-                    String startKey = fileId + ":";
-                    String endKey = fileId + ":\u00ff";
-                    db.deleteRange(dataHandle, startKey.getBytes(), endKey.getBytes());
-                    
-                    // 2. Update metadata (opsional): Tandai bahwa data mentahnya sudah dihapus
-                    String updatedMeta = "ARCHIVED|" + parts[1] + "|" + fileId;
-                    db.put(metaHandle, fileName.getBytes(), updatedMeta.getBytes());
+                count++;
+                iterator.next();
+            }
+
+            System.out.println("Selesai! Berhasil menulis " + count + " baris ke file.");
+
+        } catch (Exception e) {
+            System.err.println("Gagal men-generate file: " + e.getMessage());
+        }
+    }
+
+    public void cleanupOldData(int daysThresold) throws RocksDBException {
+        LocalDate limitDate = LocalDate.now().minusDays(daysThresold);
+
+        try (RocksIterator iter = db.newIterator(metaHandle)) {
+            for (iter.seekToFirst(); iter.isValid(); iter.next()) {
+                String fileName = new String(iter.key());
+                String metaValue = new String(iter.value()); // Format: COMPLETED|2025-05-20|uuid-123
+
+                String[] parts = metaValue.split("\\|");
+                if (parts.length == 3 && parts[0].equals("COMPLETED")) {
+                    LocalDate processedDate = LocalDate.parse(parts[1]);
+                    String fileId = parts[2];
+
+                    // Jika tanggal proses lebih lama atau sama dengan dari batas (limitDate)
+                    if (!processedDate.isAfter(limitDate)) {
+                        System.out.println("Cleaning up old data for file: " + fileName);
+
+                        // 1. Hapus isi baris CSV di CF data
+                        String startKey = fileId + ":";
+                        String endKey = fileId + ":\u00ff";
+                        db.deleteRange(dataHandle, startKey.getBytes(), endKey.getBytes());
+
+                        // 2. Update metadata (opsional): Tandai bahwa data mentahnya sudah dihapus
+                        String updatedMeta = "ARCHIVED|" + parts[1] + "|" + fileId;
+                        db.put(metaHandle, fileName.getBytes(), updatedMeta.getBytes());
+                    }
                 }
             }
         }
     }
-}
 
     @PreDestroy
     public void close() {
@@ -144,5 +182,4 @@ public void cleanupOldData(int daysThresold) throws RocksDBException {
         return String.valueOf(count);
     }
 
-    
 }
