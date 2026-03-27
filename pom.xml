@@ -40,6 +40,22 @@
 			<artifactId>spring-boot-starter-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>annotationProcessor</scope>
+		</dependency>
+				<dependency>
+			<groupId>org.rocksdb</groupId>
+			<artifactId>rocksdbjni</artifactId>
+			<version>6.6.4</version>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.annotation</groupId>
+			<artifactId>jakarta.annotation-api</artifactId>
+			<version>2.1.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
