@@ -14,24 +14,20 @@ public class FileProcess {
     }
 
     public void processFile(String message, String key) throws RocksDBException{
-        String fileId = extractFileIdFromKey(key);
-        String recordId = extractRecordIdFromKey(key);
+        String recordId = extractRecordIdFromMessage(message);
 
-        FileStateKey newFileStateKey = new FileStateKey(fileId, recordId);
+        FileStateKey newFileStateKey = new FileStateKey(key, recordId);
         rocksDBService.save(newFileStateKey, message);
 
     }
 
     
 
-    private String extractFileIdFromKey(String key) {
-        // Implement logic to extract fileId from the key
-        return key.split("-")[0]; // Example: assuming key format is "fileId-recordId"
-    }
 
-    private String extractRecordIdFromKey(String key) {
-        // Implement logic to extract recordId from the key
-        return key.split("-")[1]; // Example: assuming key format is "fileId-recordId"
+    private String extractRecordIdFromMessage(String message) {
+        String[] parts = message.split(",");
+        return parts[0]; // Asumsikan recordId ada di bagian pertama
+
     }
 
 }

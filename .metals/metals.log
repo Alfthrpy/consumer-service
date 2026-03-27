@@ -5334,3 +5334,16 @@ WARNING: Unmatched cancel notification for request id 2355
 2026.03.27 17:16:13 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
 2026.03.27 17:16:15 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
 2026.03.27 17:18:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:01 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:01 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java
+Mar 27, 2026 6:40:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2369
+2026.03.27 18:40:01 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:01 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+Mar 27, 2026 6:40:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2370
+2026.03.27 18:40:01 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:01 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:03 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:03 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.27 18:40:05 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.

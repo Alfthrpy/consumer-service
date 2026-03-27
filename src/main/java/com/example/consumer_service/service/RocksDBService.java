@@ -96,14 +96,14 @@ public class RocksDBService {
         String fileName = "batch_output_" + System.currentTimeMillis() + ".csv";
         File outputFile = new File(fileName);
 
-        try (RocksIterator iterator = db.newIterator();
+        try (RocksIterator iterator = db.newIterator(dataHandle);
                 BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
 
             iterator.seekToFirst();
 
             System.out.println("Memulai proses tulis ke file: " + fileName);
             int count = 0;
-
+            System.out.println(iterator.isValid());
             while (iterator.isValid()) {
                 byte[] keyBytes = iterator.key();
                 byte[] valueBytes = iterator.value();
