@@ -1,26 +1,24 @@
-# consumer-service-rocksdb
+# Consumer Service with RocksDB
 
+A Spring Boot application that consumes Kafka messages, processes payloads, and persists state to local RocksDB.
 
-
-Aplikasi Spring Boot ini membaca pesan Kafka, memproses payload, dan menyimpan state ke RocksDB lokal.
-
-## Teknologi
+## Technologies
 - Java 21
-- Spring Boot 4
+- Spring Boot 3
 - Spring Kafka
 - RocksDB JNI
 - Lombok
 
 ## How to Run
-1. Konfigurasi `src/main/resources/application.properties` (Kafka/DB)
-2. Jalankan:
+1. Configure `src/main/resources/application.properties` (Kafka and DB settings)
+2. Run:
    - `./mvnw clean package`
    - `./mvnw spring-boot:run`
 
-## Struktur utama
-- `src/main/java/com/example/consumer_service/service` - listener dan service RocksDB
-- `src/main/java/com/example/consumer_service/config` - config Kafka
-- `src/main/java/com/example/consumer_service/schema` - model state
+## Main Structure
+- `service/` - Kafka listener and RocksDB service
+- `config/` - Kafka configuration
+- `schema/` - State models
 
-## Catatan
-project ini juga berisi program consumer service terdahulu (pada branch main) dan program consumer service yang sudah diintegrasikan dengan rocksdb (pada branch rocksdb implementation)
+## Notes
+This project contains the previous consumer service (main branch) and the RocksDB-integrated version (rocksdb-implementation branch).
