@@ -33,7 +33,8 @@ build/
 .vscode/
 
 ### Metals ###
-.metals/
+.metals
+metals
 output
 
 *.log
