@@ -6543,3 +6543,92 @@ WARNING: Unmatched cancel notification for request id 4085
 2026.03.27 19:49:03 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java
 2026.03.27 19:49:03 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
 2026.03.27 19:49:25 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.27 19:49:40 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.27 19:49:40 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java
+2026.03.27 19:49:40 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.27 20:30:07 INFO  Shutting down server
+2026.03.27 20:30:07 INFO  Memory monitor stopped
+2026.03.27 20:30:07 INFO  shutting down Metals
+2026.03.27 20:30:07 INFO  Exiting server
+2026.03.27 20:30:07 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.03.29 18:53:32 INFO  Started: Metals version 1.6.6 in folders 'D:\CODING\JAVA\consumer-service-rocksdb' for client Visual Studio Code 1.113.0.
+2026.03.29 18:53:32 INFO  Memory monitor started
+2026.03.29 18:53:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.29 18:53:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.29 18:53:48 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.29 18:54:03 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.29 18:54:04 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.29 18:54:25 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\KafkaConsumerListener.java. Using fallback presentation compiler.
+2026.03.29 18:54:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:54:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:54:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+Mar 29, 2026 6:54:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2026.03.29 18:54:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:54:29 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:54:33 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:55:36 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+2026.03.29 18:55:37 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+Mar 29, 2026 6:55:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2026.03.29 18:55:38 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+2026.03.29 18:55:38 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+2026.03.29 18:55:38 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+2026.03.29 18:56:28 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\FileProcess.java. Using fallback presentation compiler.
+2026.03.29 18:56:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:32 WARN  no build target for: D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java
+2026.03.29 18:56:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:33 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:32 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:34 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:35 INFO  Created report: Optional[file:///D:/CODING/JAVA/consumer-service-rocksdb/src/main/java/com/example/consumer_service/service/BatchScheduler.java]
+2026.03.29 18:56:35 INFO  empty definition using pc, found symbol in pc: _empty_/RocksDBService#generateBatchFile# (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-29\r_empty-definition_18-56-35-367.md")
+2026.03.29 18:56:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\BatchScheduler.java. Using fallback presentation compiler.
+2026.03.29 18:56:35 INFO  empty definition using pc, found symbol in pc: _empty_/RocksDBService#generateBatchFile# (full report at: "D:\CODING\JAVA\consumer-service-rocksdb\.metals\.reports\metals-full\2026-03-27\r_empty-definition_19-20-47-739.md")
+2026.03.29 18:56:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.29 18:56:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+Mar 29, 2026 6:56:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2026.03.29 18:56:36 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.29 18:56:36 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.29 18:56:38 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.29 18:58:05 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\service\RocksDBService.java. Using fallback presentation compiler.
+2026.03.29 19:12:27 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\schema\FileStateKey.java. Using fallback presentation compiler.
+2026.03.29 19:12:28 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\schema\FileStateKey.java. Using fallback presentation compiler.
+2026.03.29 19:12:27 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\schema\FileStateKey.java. Using fallback presentation compiler.
+2026.03.29 19:12:28 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\schema\FileStateKey.java. Using fallback presentation compiler.
+2026.03.29 19:12:35 INFO  no build target found for D:\CODING\JAVA\consumer-service-rocksdb\src\main\java\com\example\consumer_service\schema\FileStateKey.java. Using fallback presentation compiler.
+2026.03.29 19:21:29 INFO  Shutting down server
+2026.03.29 19:21:29 INFO  Memory monitor stopped
+2026.03.29 19:21:29 INFO  shutting down Metals
+2026.03.29 19:21:29 INFO  Exiting server
+2026.03.29 19:21:29 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:214)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
